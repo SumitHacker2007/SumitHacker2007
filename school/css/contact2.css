@@ -1,0 +1,47 @@
+
+nav ul li a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    padding: 5px 6px;
+    line-height: 99px;
+    font-size: 11px;
+    color: cyan;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+#optioanl{
+    display: none;
+}
+#navbg img{
+    width: 100%;
+    height: 51%;
+}
+#midle img {
+    height: 85%;
+    width: 100%;
+}
+#conas{
+    display:block;
+}
+.tex{
+    margin-left: 10px;
+}
+.tex h3{
+    font-size: 2.5rem;
+}
+.contact-text{
+    font-size: 1rem;
+}
+#map iframe{
+    width: 360px;
+}
+.text {
+    text-align: center;
+    color: white;
+    font-size: 13px}
+#gallery{
+    font-size: 20px;
+    margin-left: 15px;
+}

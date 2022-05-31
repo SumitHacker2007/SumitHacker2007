@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+   background-color: black;
+
+   height: 100px;
+    
+  
+}
+ nav ul{
+display: flex;
+text-align: center;
+} 
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    margin: 40px;
+    padding: 5px 6px;
+    line-height: 81px;
+    font-size: 2.5rem;
+    color:cyan;
+    font-weight: 500;
+    
+    box-sizing: border-box;
+    
+}
+nav ul li a:hover{
+    color: darkcyan;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 30px;
+}
+#Gallery h1{
+    text-align: center;
+    color: red;
+    font-size: 3.5rem;
+}
+.container{
+        margin-top: -216px;
+    display: flex;
+     margin-left: 450px;
+     justify-content: center;
+        width: 500px;
+        height: 500px;
+        transform: rotateX(91deg) rotate(45deg);
+        transform-style: preserve-3d;
+        top: -100px;
+        animation: rot 8s linear infinite;
+    }
+     @keyframes rot{
+        0%{
+            transform: rotateX(90deg) rotate(45deg);
+        }
+        100%{
+            transform: rotateX(90deg) rotate(405deg);
+        }
+    } 
+    .container div{
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        background-color: black;
+    }
+    #left{
+        left: 0px;
+        top: 0px;
+        transform-origin: left;
+        transform: rotateY(90deg);
+        background: url("../img/2.PNG") center no-repeat ;
+    }
+    #right{
+        right: 0px;
+        top: 0px;
+        transform-origin: right;
+        transform: rotateY(-90deg);
+        background: url("../img/1.PNG") center no-repeat ;
+    }
+    #front{
+        right: 0px;
+        top: 0px;
+        transform-origin: top;
+        background: url("../img/3.jpg") center no-repeat ;
+        transform: rotateX(-90deg);
+    }
+    #back{
+        right: 0px;
+        bottom: 0px;
+        transform-origin: bottom;
+        background: url("../img/1.jpg") center no-repeat ;
+        transform: rotateX(90deg);
+    }
+    #gallerys {
+        margin-top: 330px;
+    }  
+    #gallery h2{
+        text-align: center;
+        font-size: 3.5rem;
+    color: red;
+    }
+    #gallery2 h2{
+        text-align: center;
+        font-size: 3.5rem;
+    color: red;
+    }  
+    .photos{height:550px;
+width: 600px;
+padding: 20px 10px;
+
+}
+.gallery-item{
+display: flex;
+border: 2px solid rgb(230, 214, 214);
+height: 580px;
+overflow-x: auto;
+}
+footer{
+background-color: black;
+
+}
+#gallery{
+text-align: center;display: block;
+padding-top: 15px;
+margin: 15px ;
+font-size: 2.5rem;
+text-decoration: none;
+color: white;
+}
+#gallery:hover{
+color: rgb(214, 205, 205);
+}
+footer .fotterlogo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 0px 13px;
+width: 5%;
+
+}
+.text{
+text-align: center;
+color: white;
+font-size: 2.4rem;
+}
+#num{
+color: red;
+display: inline;
+font-size: 2.6rem;
+text-align: center;
+}
+#num:hover{
+color: rgb(252, 181, 181);
+
+}
+#all{
+margin-left: 250px;
+}
+#school{
+text-align: center;
+}
+#school h2{
+font-size: 3.5rem;
+color: red;
+font-weight: 900;
+}
+#school pre{
+font-size: 1.8rem;
+}

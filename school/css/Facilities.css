@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+   background-color: black;
+
+   height: 100px;
+    
+  
+}
+ nav ul{
+display: flex;
+text-align: center;
+} 
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    margin: 40px;
+    padding: 5px 6px;
+    line-height: 81px;
+    font-size: 2.5rem;
+    color:cyan;
+    font-weight: 500;
+    
+    box-sizing: border-box;
+    
+}
+nav ul li a:hover{
+    color: darkcyan;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 30px;
+}
+#Facility h2{
+    text-align: center;
+    font-size: 3.5rem;
+    color: red;
+}
+.imgs{
+    height: 10%;
+    width: 40%;
+}
+.faci{
+    display: flex;
+    margin-bottom: 50px;
+}
+.tes{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 102px;
+}
+.tes2{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 92px;
+}
+.tes2 p{
+    display: inline;
+    font-size: 6rem;
+    margin-right: 102px;
+   justify-content: center;
+   align-items: center;
+}
+.tes p{
+    display: inline;
+    font-size: 6.5rem;
+    margin-left: 120px;
+   justify-content: center;
+   align-items: center;
+
+}
+.imgv{
+    width: 50%;
+}
+footer{
+background-color: black;
+
+}
+#gallery{
+text-align: center;display: block;
+padding-top: 15px;
+margin: 15px ;
+font-size: 2.5rem;
+text-decoration: none;
+color: white;
+}
+#gallery:hover{
+color: rgb(214, 205, 205);
+}
+footer .fotterlogo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 0px 13px;
+width: 5%;
+
+}
+.text{
+text-align: center;
+color: white;
+font-size: 2.4rem;
+}
+#num{
+color: red;
+display: inline;
+font-size: 2.6rem;
+text-align: center;
+}
+#num:hover{
+color: rgb(252, 181, 181);
+
+}
+#all{
+margin-left: 250px;
+}
+#school{
+text-align: center;
+}
+#school h2{
+font-size: 3.5rem;
+color: red;
+font-weight: 900;
+}
+#school pre{
+font-size: 1.8rem;
+}

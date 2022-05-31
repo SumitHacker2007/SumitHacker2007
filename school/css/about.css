@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+   background-color: black;
+
+   height: 100px;
+    
+  
+}
+ nav ul{
+display: flex;
+text-align: center;
+} 
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    margin: 40px;
+    padding: 5px 6px;
+    line-height: 81px;
+    font-size: 2.5rem;
+    color:cyan;
+    font-weight: 500;
+    
+    box-sizing: border-box;
+    
+}
+nav ul li a:hover{
+    color: darkcyan;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 30px;
+}
+#AboutUs h1{
+    text-align: center;
+    font-size: 4.5rem;
+    color: red;
+}
+#heads{
+    text-align: center;
+    font-size: 3.6rem;
+    margin-top: 50px;
+}
+#information{
+    text-align: center;
+    font-size: 1.5rem;
+    overflow-wrap: break-word;
+}
+#our{
+    background-color: rgb(243, 224, 243);
+    
+}
+.headingss{
+    font-size: 2.5rem;
+}
+#all p{
+    overflow-wrap: break-word;
+    font-size: 1.1rem;
+}
+#all{
+    display: flex;
+    margin-left: 90px;
+}
+#mission{
+    background-color: rgb(243, 243, 197);
+    margin-left: 80px;
+}
+footer{
+background-color: black;
+
+}
+#gallery{
+text-align: center;display: block;
+padding-top: 15px;
+margin: 15px ;
+font-size: 2.5rem;
+text-decoration: none;
+color: white;
+}
+#gallery:hover{
+color: rgb(214, 205, 205);
+}
+footer .fotterlogo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 0px 13px;
+width: 5%;
+
+}
+.text{
+text-align: center;
+color: white;
+font-size: 2.4rem;
+}
+#num{
+color: red;
+display: inline;
+font-size: 2.6rem;
+text-align: center;
+}
+#num:hover{
+color: rgb(252, 181, 181);
+
+}
+
+#school{
+text-align: center;
+}
+#school h2{
+font-size: 3.5rem;
+color: red;
+font-weight: 900;
+}
+#school pre{
+font-size: 1.8rem;
+}
